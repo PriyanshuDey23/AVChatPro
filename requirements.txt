@@ -1,0 +1,13 @@
+streamlit
+pytube
+langchain
+assemblyai
+google-generativeai
+langchain_google_genai
+streamlit-lottie
+python-dotenv
+faiss-cpu
+requests
+youtube-transcript-api
+
+-e .
