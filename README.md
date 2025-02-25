@@ -1,5 +1,7 @@
-
 # ChatAudio: Interactive Audio/Video Chat with Transcription
+
+![](audio.png)
+![](video.png)
 
 ## Overview
 ChatAudio is an interactive application that allows users to chat with the content of audio files or YouTube videos. The app extracts the transcript from an audio file or a YouTube video and then provides a question-answering interface to query the content. It uses AssemblyAI for speech-to-text transcription, Google Gemini for embedding, and LangChain for Q&A functionality.

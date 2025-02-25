@@ -96,7 +96,7 @@ def get_vector_store(chunks):
 # Function to create the conversational chain
 def get_conversational_chain(context, user_question):
     prompt_template = "Given the context: {context}, answer the following question: {user_question}"
-    model = ChatGoogleGenerativeAI(model="gemini-1.5-pro-002", temperature=0.2)
+    model = ChatGoogleGenerativeAI(model="gemini-1.5-flash-8b", temperature=0.2)
     prompt = PromptTemplate(template=prompt_template, input_variables=["context", "user_question"])
     return load_qa_chain(model, chain_type="stuff", prompt=prompt)
 
